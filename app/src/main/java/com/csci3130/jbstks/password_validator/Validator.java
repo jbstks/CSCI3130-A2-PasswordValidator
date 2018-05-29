@@ -1,6 +1,6 @@
 package com.csci3130.jbstks.password_validator;
 /**
- * Assignment 1
+ * Assignment 2
  * Validator.java
  *
  * @author Joanna Bistekos (B00710704)
