@@ -10,7 +10,7 @@ package com.csci3130.jbstks.password_validator;
  */
 public class Validator {
     /**
-     * Validates the given password
+     * Validates the given password with a set of rules
      *
      * @param pw the password String in question
      * @return the number of rules that the String passed
