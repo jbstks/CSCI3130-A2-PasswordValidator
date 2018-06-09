@@ -24,6 +24,13 @@ public class Validator {
         // Checks if the given password is at least 8 characters
         if (pw.length() > 7) passed++;
 
+        // Checks if the given password has one of the following symbols
+        if (pw.matches(".*[!?,.:;'^+$#@]+.*")) passed++;
+        // Checks if the given password has at least 1 lowercase and uppercase letter
+        if (pw.matches(".*[A-Z]+.*") && pw.matches(".*[a-z]+.*")) passed++;
+        // Checks if the given password contains at least 1 number
+        if (pw.matches(".*[0-9]+.*")) passed++;
+
         return passed;
     }
 }
