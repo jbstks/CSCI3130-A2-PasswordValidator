@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">password-validator</string>
+    <string name="app_name">Password Validator</string>
+
+    <string name="pwFieldLabel">Password</string>
+
+    <string name="rules_header"> Password needs to:</string>
+    <string name="rule1">not be \"password\"</string>
+    <string name="rule2">be at least 8 characters long</string>
+    <string name="rule3">include an upper and lower case letter</string>
+    <string name="rule4">include a number and a symbol (!?,.:;"'^=+$#@)</string>
+    <string name="rule5">have at least 1 symbol </string>
+
+
+    <string name="password">password</string>
+    <string name="validateButton">Validate</string>
 </resources>
