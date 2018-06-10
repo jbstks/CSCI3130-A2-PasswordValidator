@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         EditText pwField = findViewById(R.id.pwField);
         String pw = pwField.getText().toString();
 
-        TextView textView = findViewById(R.id.textView);
-        if (validator.validate(pw) == 5) textView.setText("Success!");
+        TextView textView = findViewById(R.id.output);
+        if (validator.validate(pw) == 5) textView.setText("Strong password!");
         else textView.setText("Not strong enough!");
         textView.setVisibility(View.VISIBLE);
     }
