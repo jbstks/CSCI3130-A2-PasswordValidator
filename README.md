@@ -17,7 +17,7 @@ Rules implemented:
 Same as above, however 3 more rules of my choosing were added.
 
 Rules implemented:
-* includes a symbol (!?,.:;"'^=+$#@)
+* includes a symbol (!?,.:;'^+$#@)
 * includes an upper and lower case letter
 * includes a number
 
