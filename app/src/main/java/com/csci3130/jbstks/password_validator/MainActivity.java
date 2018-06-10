@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.output);
         if (validator.validate(pw) == 5) textView.setText("Strong password!");
-        else textView.setText("Not strong enough!");
+        else textView.setText("Weak password!");
         textView.setVisibility(View.VISIBLE);
     }
 }
